@@ -6,7 +6,7 @@ begin
     for F := 40 to 60 do
     begin
         C := (5/9)*(F-32);
-        writeln(C:2:2, ' => ', F);
+        writeln( F, ' => ',C:2:2);
     end;
     writeln();
 end.

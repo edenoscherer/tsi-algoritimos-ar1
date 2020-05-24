@@ -1,11 +1,15 @@
-### Unipar - TSI
-#### Algoritmos e Fundamentos de Programação de Computadores
+# Unipar - TSI (Tecnólogo em Sistemas para Internet)
+## Algoritmos e Fundamentos de Programação de Computadores
 **ATIVIDADE REFLEXIVA (AR)**
+
 Algoritmos e Fundamentos de Programação de Computadores
+
 Instruções:
+
 - Os exercícios devem ser desenvolvidos em linguagem Pascal.
 ---
 **Exercícios com estrutura de decisão simples e/ou composta:**
+
 1. Faça um algoritmo que tendo como dados de entrada a altura e o sexo de uma pessoa (digite “M” para Masculino e “F” para Feminino), calcule o peso ideal dessa pessoa, utilizando-se das seguintes fórmulas:
 - Para sexo Masculino: peso_i <- (450.7 * altura) / 10
 - Para sexo Feminino: peso_i <- (400.7 * altura) / 10
@@ -13,10 +17,15 @@ Instruções:
 **Exercícios com estrutura de decisão múltipla escolha:**
 
 2. Elabore um algoritmo que monte um menu com as seguintes opções:
+
 1 – Exercício 1
+
 2 – Exercício 3
+
 3 – Exercício 5
+
 4 – Fim
+
 - Se o usuário executar a opção 1, o algoritmo deve executar o exercício 1 desta lista.
 - Se o usuário executar a opção 2, o algoritmo deve executar o exercício 3 desta lista.
 - Se o usuário executar a opção 3, o algoritmo deve executar o exercício 5 desta lista.
