@@ -1,8 +1,7 @@
 program exercicio1;
 var
-	altura: real;
+	altura, peso_i: real;
 	sexo: char;
-	peso_i: real;
 begin
 	peso_i:=0;
 	write('Informe a altura: ');
