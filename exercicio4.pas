@@ -16,6 +16,6 @@ begin
         write('A área é: ');
         writeln(area:10:2);
         writeln();
-    end;        
+    end;
     until (count = 6);
 end.

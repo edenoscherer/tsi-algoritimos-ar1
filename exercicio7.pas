@@ -11,7 +11,7 @@ begin
             write('Informe um número inteiro para a posição ',i,'-',y,': ');
             readln(num);
             vetor1[i,y] := num;
-            somaColunas[y] := somaColunas[y]+num; 
+            somaColunas[y] := somaColunas[y]+num;
         end;
     end;
     num := 0;

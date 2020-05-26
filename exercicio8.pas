@@ -43,7 +43,7 @@ begin
             write('Informe o status (ativo ou inativo) para o cliente ', count,': ');
             readln(clientes[count].status);
             writeln();
-            
+
         end;
 
         writeln('--------------------------');
@@ -55,10 +55,10 @@ begin
             writeln('Nome: ', clientes[count].nome);
             writeln('Endereço: ', clientes[count].endereco);
             writeln(
-                'Data de nascimento: ', 
-                clientes[count].dt_nascimento[1], 
+                'Data de nascimento: ',
+                clientes[count].dt_nascimento[1],
                 '/',
-                clientes[count].dt_nascimento[2], 
+                clientes[count].dt_nascimento[2],
                 '/',
                 clientes[count].dt_nascimento[3]
             );
@@ -75,7 +75,7 @@ begin
         readln(continuar);
         if upcase(continuar) = 'S' then
             finalizar := false
-        else 
+        else
         begin
             finalizar := true;
             writeln('O algoritmo será finalizado.');
