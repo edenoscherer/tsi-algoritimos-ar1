@@ -1,4 +1,4 @@
-program exercicio29;
+program exercicio9;
 function calcularMedia():real;
     var
         n1, n2, n3, n4, media: real;
